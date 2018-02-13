@@ -1,0 +1,32 @@
+{
+  "name": "nodeapp",
+  "description": "A node console app used to test express with mongodb and jade templates",
+  "authors": "Zaid Annas",
+  "version": "0.0.0",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "start-dev": "nodemon server.js"
+  },
+  "repository": {
+    "url": "https://github.com/mzaidannas/nodeapp"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.16.2",
+    "jade": "~1.11.0",
+    "mongoose": "~5.0.4",
+    "morgan": "~1.9.0",
+    "node-sass-middleware": "~0.11.0",
+    "serve-favicon": "~2.4.5",
+    "dotenv": "~5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "~1.14.12"
+  }
+}
