@@ -10,3 +10,9 @@ yarn.lock
 
 # Ignore vscode javascript project file
 jsconfig.json
+
+# Ignore eslint configuration file
+.eslintrc.json
+
+# Ignore editorconfig file
+.editorconfig
